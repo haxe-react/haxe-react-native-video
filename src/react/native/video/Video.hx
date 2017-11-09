@@ -7,4 +7,5 @@ import react.native.component.props.*;
 extern class Video extends ReactComponentOfProps<{
 	> ViewProps,
 	source:{uri:String},
+	?controls:Bool,
 }> {}
