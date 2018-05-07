@@ -1,11 +1,28 @@
 package react.native.video;
 
+import haxe.Constraints;
 import react.ReactComponent;
 import react.native.component.props.*;
 
 @:jsRequire('react-native-video', 'default')
 extern class Video extends ReactComponentOfProps<{
-	> ViewProps,
-	source:{uri:String},
+	> ImageProps,
 	?controls:Bool,
+	?poster:String,
+	?rate:Float,
+	?volume:Float,
+	?muted:Bool,
+	?paused:Bool,
+	?repeat:Bool,
+	?playInBackground:Bool,
+	?playWhenInactive:Bool,
+	?ignoreSilentSwitch:String,
+	?progressUpdateInterval:Float,
+	?onLoadStart:Function,
+	?onLoad:Function,
+	?onProgress:Function,
+	?onEnd:Function,
+	?onError:Function,
+	?onBuffer:Function,
+	?onTimedMetadata:Function,
 }> {}
