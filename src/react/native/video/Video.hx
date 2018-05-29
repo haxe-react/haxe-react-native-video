@@ -25,4 +25,9 @@ extern class Video extends ReactComponentOfProps<{
 	?onError:Function,
 	?onBuffer:Function,
 	?onTimedMetadata:Function,
-}> {}
+}> {
+	
+	function presentFullscreenPlayer():Void;
+	function dismissFullscreenPlayer():Void;
+	function seek(pos:Int):Void;
+}
