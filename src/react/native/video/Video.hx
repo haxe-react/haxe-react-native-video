@@ -3,6 +3,7 @@ package react.native.video;
 import haxe.Constraints;
 import react.ReactComponent;
 import react.native.component.props.ImageProps;
+import react.native.component.types.ImagePropsTypes;
 
 @:jsRequire('react-native-video', 'default')
 extern class Video extends ReactComponentOfProps<{
